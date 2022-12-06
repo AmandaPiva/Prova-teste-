@@ -1,1 +1,18 @@
 <h2>Logged accounts</h2>
+<div class="data">
+  <table>
+    <tr>
+      <td>Id</td>
+      <td>Name</td>
+      <td>User Name</td>
+      <td>Email</td>
+    </tr>
+
+    <tr *ngFor="let forUser of user">
+      <td>{{forUser.id}}</td>
+      <td>{{forUser.name}}</td>
+      <td>{{forUser.username}}</td>
+      <td>{{forUser.email}}</td>
+    </tr>
+  </table>
+</div>
