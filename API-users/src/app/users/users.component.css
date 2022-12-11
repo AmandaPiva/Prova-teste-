@@ -60,7 +60,19 @@ td{
     font-size: 48px;
     font-weight: 600;
 
-    margin-left: 15px;
+    margin-left: 25px;
     color: rgb(165, 161, 167);
+}
+
+.svg{
+    display:flex;
+    flex-direction: column;
+
+    margin: auto;
+    padding: 5rem;
+}
+
+img{
+    margin-top: 15%;
 }
 
