@@ -14,6 +14,9 @@ export class UsersComponent implements OnInit {
 
   constructor(private usersService: UsersService) { } //injetando no construtor o nosso serviço
 
+  //image location
+  ImagePath = '/assets/imgs/image.svg';
+
   ngOnInit(): void {
     this.usersService.ObserUsers()
       .subscribe(inter => this.user = inter);

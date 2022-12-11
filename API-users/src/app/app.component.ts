@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Data of Users';
+
+  ImagePath = '/assets/imgs/image.svg';
 }
